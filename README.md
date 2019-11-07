@@ -1,6 +1,6 @@
-# @auraxy/aliyun-captcha
-[![NPM Version](http://img.shields.io/npm/v/@auraxy/aliyun-captcha.svg?style=flat-square)](https://www.npmjs.com/package/@auraxy/aliyun-captcha)
-[![Download Month](http://img.shields.io/npm/dm/@auraxy/aliyun-captcha.svg?style=flat-square)](https://www.npmjs.com/package/@auraxy/aliyun-captcha)
+# @suolun/aliyun-captcha
+[![NPM Version](http://img.shields.io/npm/v/@suolun/aliyun-captcha.svg?style=flat-square)](https://www.npmjs.com/package/@suolun/aliyun-captcha)
+[![Download Month](http://img.shields.io/npm/dm/@suolun/aliyun-captcha.svg?style=flat-square)](https://www.npmjs.com/package/@suolun/aliyun-captcha)
 ![gzip with dependencies: kb](https://img.shields.io/badge/gzip--with--dependencies-kb-brightgreen.svg "gzip with dependencies: kb")
 ![typescript](https://img.shields.io/badge/typescript-supported-blue.svg "typescript")
 ![pkg.module](https://img.shields.io/badge/pkg.module-supported-blue.svg "pkg.module")
@@ -9,7 +9,7 @@
 
 [中文文档](./README-CN.md)
 
-@auraxy/aliyun-captcha
+@suolun/aliyun-captcha
 
 ## repository
 
@@ -28,7 +28,7 @@ Your can see the usage by run the example of the module, here is the step:
 
 ## Installation
 ```bash
-npm i -S @auraxy/aliyun-captcha
+npm i -S @suolun/aliyun-captcha
 ```
 
 ## Global name - The variable the module exported in `umd` bundle
@@ -39,34 +39,34 @@ See what method or params you can use in [index.d.ts](./index.d.ts)
 
 ## Usage
 ```js
-import * as AliyunCaptcha from '@auraxy/aliyun-captcha'
+import * as AliyunCaptcha from '@suolun/aliyun-captcha'
 ```
 
-Use in html, see what your can use in [CDN: unpkg](https://unpkg.com/@auraxy/aliyun-captcha/lib/umd/)
+Use in html, see what your can use in [CDN: unpkg](https://unpkg.com/@suolun/aliyun-captcha/lib/umd/)
 ```html
 <-- use what you want -->
-<script src="https://unpkg.com/@auraxy/aliyun-captcha/lib/umd/<--module-->.js"></script>
+<script src="https://unpkg.com/@suolun/aliyun-captcha/lib/umd/<--module-->.js"></script>
 ```
 
 ## style
 For building style, you may need to import the css or scss file:
 ```js
 // scss
-import 'node_modules/@auraxy/aliyun-captcha/lib/css/index.scss'
+import 'node_modules/@suolun/aliyun-captcha/lib/css/index.scss'
 
 // css
-import 'node_modules/@auraxy/aliyun-captcha/lib/css/index.css'
+import 'node_modules/@suolun/aliyun-captcha/lib/css/index.css'
 ```
 Or
 ```scss
 // scss
-@import 'node_modules/@auraxy/aliyun-captcha/lib/css/index.scss'
+@import 'node_modules/@suolun/aliyun-captcha/lib/css/index.scss'
 
 // css
-@import 'node_modules/@auraxy/aliyun-captcha/lib/css/index.css'
+@import 'node_modules/@suolun/aliyun-captcha/lib/css/index.css'
 ```
 
-Or, you can build your custom style by copying, editing and importing `node_modules/@auraxy/aliyun-captcha/lib/css/index.scss`
+Or, you can build your custom style by copying, editing and importing `node_modules/@suolun/aliyun-captcha/lib/css/index.scss`
 
 ## QA
 

@@ -1,5 +1,5 @@
 {
-  "name": "@auraxy/aliyun-captcha",
+  "name": "@suolun/aliyun-captcha",
   "version": "1.0.0",
   "description": "aliyun-captcha",
   "main": "./lib/umd/index.js",

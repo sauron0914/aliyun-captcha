@@ -1,6 +1,6 @@
-# @auraxy/aliyun-captcha
-[![NPM Version](http://img.shields.io/npm/v/@auraxy/aliyun-captcha.svg?style=flat-square)](https://www.npmjs.com/package/aliyun-captcha)
-[![Download Month](http://img.shields.io/npm/dm/@auraxy/aliyun-captcha.svg?style=flat-square)](https://www.npmjs.com/package/@auraxy/aliyun-captcha)
+# @suolun/aliyun-captcha
+[![NPM Version](http://img.shields.io/npm/v/@suolun/aliyun-captcha.svg?style=flat-square)](https://www.npmjs.com/package/@suolun/aliyun-captcha)
+[![Download Month](http://img.shields.io/npm/dm/@suolun/aliyun-captcha.svg?style=flat-square)](https://www.npmjs.com/package/@suolun/aliyun-captcha)
 ![gzip with dependencies: kb](https://img.shields.io/badge/gzip--with--dependencies-kb-brightgreen.svg "gzip with dependencies: kb")
 ![typescript](https://img.shields.io/badge/typescript-supported-blue.svg "typescript")
 ![pkg.module](https://img.shields.io/badge/pkg.module-supported-blue.svg "pkg.module")
@@ -9,7 +9,7 @@
 
 [English Document](./README.md)
 
-@auraxy/aliyun-captcha
+@suolun/aliyun-captcha
 
 ## repository
 
@@ -28,7 +28,7 @@
 
 ## Installation
 ```bash
-npm i -S @auraxy/aliyun-captcha
+npm i -S @suolun/aliyun-captcha
 ```
 
 ## Global name - The variable the module exported in `umd` bundle
@@ -39,34 +39,34 @@ npm i -S @auraxy/aliyun-captcha
 
 ## Usage
 ```js
-import * as AliyunCaptcha from '@auraxy/aliyun-captcha'
+import * as AliyunCaptcha from '@suolun/aliyun-captcha'
 ```
 
-在 HTML 文件中直接引用，你可以在 [CDN: unpkg](https://unpkg.com/@auraxy/aliyun-captcha/lib/umd/) 看到你能用到的所有 js 脚本
+在 HTML 文件中直接引用，你可以在 [CDN: unpkg](https://unpkg.com/@suolun/aliyun-captcha/lib/umd/) 看到你能用到的所有 js 脚本
 ```html
 <-- 然后使用你需要的 -->
-<script src="https://unpkg.com/@auraxy/aliyun-captcha/lib/umd/<--module-->.js"></script>
+<script src="https://unpkg.com/@suolun/aliyun-captcha/lib/umd/<--module-->.js"></script>
 ```
 
 ## style
 你可能需要主动引入样式文件来应用组件的样式：
 ```js
 // scss
-import 'node_modules/@auraxy/aliyun-captcha/lib/css/index.scss'
+import 'node_modules/@suolun/aliyun-captcha/lib/css/index.scss'
 
 // css
-import 'node_modules/@auraxy/aliyun-captcha/lib/css/index.css'
+import 'node_modules/@suolun/aliyun-captcha/lib/css/index.css'
 ```
 Or
 ```scss
 // scss
-@import 'node_modules/@auraxy/aliyun-captcha/lib/css/index.scss'
+@import 'node_modules/@suolun/aliyun-captcha/lib/css/index.scss'
 
 // css
-@import 'node_modules/@auraxy/aliyun-captcha/lib/css/index.css'
+@import 'node_modules/@suolun/aliyun-captcha/lib/css/index.css'
 ```
 
-你也可以通过引入自定义的组件样式文件来自定义样式，文件可以通过复制并修改 `node_modules/@auraxy/aliyun-captcha/lib/css/index.scss` 得到
+你也可以通过引入自定义的组件样式文件来自定义样式，文件可以通过复制并修改 `node_modules/@suolun/aliyun-captcha/lib/css/index.scss` 得到
 
 ## QA
 
